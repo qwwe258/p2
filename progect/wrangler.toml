@@ -1,0 +1,13 @@
+name = "star-wars-3d-game"
+type = "webpack"
+account_id = "" # 需要填入您的 Cloudflare 帳戶 ID
+workers_dev = true
+route = ""
+zone_id = "6614"
+
+[site]
+bucket = "./dist"
+entry-point = "workers-site"
+
+[build]
+command = "npm run build" 
